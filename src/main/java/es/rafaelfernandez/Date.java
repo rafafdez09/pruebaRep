@@ -1,4 +1,4 @@
-package org.iis2024;
+package es.rafaelfernandez;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -16,6 +16,7 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+  private int fecha;
   private final int day;
   private final int month;
   private final int year;
